@@ -2,9 +2,11 @@ name: 'Automatic version updates'
 
 permissions:
   contents: write
-  statuses: write
-  actions: read
   pull-requests: write
+  actions: read
+  statuses: write
+  checks: write        
+  issues: write        
 
 on:
   schedule:
